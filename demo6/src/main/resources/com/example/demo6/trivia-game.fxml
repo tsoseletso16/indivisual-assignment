@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="rootVBox" alignment="CENTER" spacing="20" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.demo6.TriviaGameController">
+    <Label fx:id="questionLabel" wrapText="true" />
+    <Button fx:id="option1Button" onAction="#checkAnswer" />
+    <Button fx:id="option2Button" onAction="#checkAnswer" />
+    <Button fx:id="option3Button" onAction="#checkAnswer" />
+    <Button fx:id="option4Button" onAction="#checkAnswer" />
+    <Label fx:id="feedbackLabel" />
+    <Label fx:id="scoreLable" text="score:0"/>
+</VBox>
